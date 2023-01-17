@@ -14,18 +14,14 @@ public class _01_Class {
         int price = 200000;
         String color = "블랙";
 
-        // 새로운 제품을 개발
+        //새로운 제품을 개발
         String modelName2 = "하양이";
         String resolution2 = "UHD";
-        int price2 = 300000;
+        int price2 = 100000;
         String color2 = "화이트";
 
-        // 또다른 제품을 개발?
+        //또다른 제품을 개발?
         BlackBox bbox = new BlackBox();
-        // BlackBox 클래스로부터 bbox 객체 생성
-        // BlackBox 클래스로부터 클래스의 인스턴스
-
-        BlackBox bbox2 = new BlackBox();
 
     }
 }
