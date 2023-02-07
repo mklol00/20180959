@@ -52,7 +52,7 @@ public class Mission {
         System.out.println("Javascript 과목 점수를 입력해주세요.");
         javascriptScore = scanner.nextInt();
 
-        average = ((htmlScore + cssScore + javascriptScore) / 3);
+        average = ((double)(htmlScore + cssScore + javascriptScore) / 3);
 
         if (season == 1 || season == 2 && average >= 60) {
             System.out.println("합격입니다");
@@ -73,6 +73,9 @@ public class Mission {
         }
         else {
             System.out.println("불합격입니다");
+            System.out.println("전체 과목 중 최고점은" + maximum3(htmlScore, cssScore, javascriptScore) + "점입니다.");
+            System.out.println("전체 과목 중 최저점은" + minimum3(htmlScore, cssScore, javascriptScore) + "점입니다.");
+            System.out.println("전체 과목의 평균은" + average + "점입니다.");
         }
 
 
